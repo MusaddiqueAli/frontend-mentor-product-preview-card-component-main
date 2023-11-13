@@ -1,0 +1,24 @@
+*,
+*::before,
+*::after {
+    box-sizing: border-box;
+}
+
+* {
+    margin: 0;
+    font: inherit;
+}
+
+.attribution {
+    display: flex;
+    justify-content: center;
+    font-size: 13px;
+    text-align: center;
+    background-color: white;
+    position: fixed;
+    bottom: 0;
+}
+  
+.attribution a {
+    color: hsl(228, 45%, 44%);
+}
